@@ -1,0 +1,60 @@
+/*Set the body/website background-color to #2C3333*/
+body {background-color: #2C3333;}
+
+hr {
+  border-color: #C4DFAA;
+  /*The top side of the border is dotted, but all other sides are empty/none.*/
+  border-style: dotted none none none;
+  /*The hr will have a width of 10% of the website page.*/
+  width: 10%;
+  /*Thickness of border.*/
+  border-width: 7px;
+
+
+  /* With this code you can see how the HR element is a rectangle with the top side of the border being dotted.
+  height: 30px;
+  background-color: blue;
+  */
+  /* DEFAULT CSS (user agent stylesheet) FOR HR ELEMENT
+  The value of border-width is the value of all the sides of the border.
+  border-width: 1px;
+      border-top-width: 1px;
+      border-right-width: 1px;
+      border-bottom-width: 1px;
+      border-left-width: 1px;
+
+  The value of border-style sets all sides of the HR's border to inset.
+  Inset is a 3D border-style, but with a border-width of 1px
+  border-style: inset;
+      border-top-style: inset;
+      border-right-style: inset;
+      border-bottom-style: inset;
+      border-left-style: inset;
+
+  The height property is 0px, so the HR element if like an empty rectangle with only a VISIBLE BORDER.
+  */
+
+}
+
+h1{
+  color: #E7F6F2;
+  font-family: monospace;
+}
+
+h3 {
+  color: #A5C9CA;
+  font-family: monospace;
+}
+
+/*Setting almost all text (paragraph, ordered and unordered list, table data, table header,
+and form labels) to font monospace and color #97b877.*/
+p, ol, ul, td, th, label{
+  color: #97b877;
+  font-family: monospace;
+}
+
+/*Table data (table cell) padding set to 15px (replaces <table> cellpadding attriute).*/
+td {padding: 15px;}
+
+/*Anchor element (hyperlinks) text color is set to CornSilk*/
+a {color: CornSilk;}
